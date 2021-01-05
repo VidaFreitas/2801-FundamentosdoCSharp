@@ -6,13 +6,9 @@ namespace MeuApp
     {
         static void Main(string[] args)
         {
-            string valor = "andre";
-            switch (valor)
+            for (int i = 0; i <= 5; i++)
             {
-                case "joao": Console.WriteLine("Não é o cara!"); break;
-                case "marcelo": Console.WriteLine("Não é o cara!"); break;
-                case "andre": Console.WriteLine("É este!"); break;
-                default: Console.WriteLine("Não encontrei!"); break;
+                Console.WriteLine(i);
             }
         }
     }
